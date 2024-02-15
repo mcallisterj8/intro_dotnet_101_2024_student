@@ -4,3 +4,9 @@
     Annual Salary: 97000
     Position ID: 47285220-ed1a-42fb-a623-33daff09c6d2
     Position Description: Software Engineer
+    
+    Benefits
+    ----------
+    
+        Additional Bonus
+        Paid Vacation
