@@ -15,3 +15,4 @@ EmployeeWriter writer = new EmployeeWriter(employeeDir);
 EmployeeOptions empOptions = new EmployeeOptions() { IncludePosition = true, IncludeBenefits = true };
 
 writer.WriteAll(companyA.Employees, empOptions);
+
