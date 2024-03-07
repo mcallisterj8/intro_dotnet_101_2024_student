@@ -19,7 +19,7 @@ Android phoneD = new Android {
             Model = "Samsung Galaxy 12"
         };
 
-// phoneA.BrowseInternet(); // iPhone
+phoneA.BrowseInternet(); // iPhone
 // phoneB.BrowseInternet(); // Android
 
 // phoneA.UseAssistant("Check Weather"); // Valid command
@@ -48,6 +48,7 @@ ISmartphone phoneF = new Android {
 // phoneA.CallSteveJobs();
 
 /////////////////////////////////////
+
 
 List<ISmartphone> smartphones = new List<ISmartphone>{
     phoneA,
