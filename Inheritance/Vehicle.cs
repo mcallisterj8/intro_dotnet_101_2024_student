@@ -8,6 +8,7 @@ public class Vehicle {
     }
 
     public Vehicle(string vehicleName){
+        this.Name = vehicleName;
         Console.WriteLine("Vehicle Constuctor TWO!");
     }
 

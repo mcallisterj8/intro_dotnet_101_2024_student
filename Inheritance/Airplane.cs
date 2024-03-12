@@ -3,12 +3,16 @@ public class Airplane : Vehicle {
     public int MaxAltitude { get; private set;}    
     protected int NumEngines { get; set;}
     
-    public Airplane(string airline, int maxAltitude, int numEngines) {
-        this.Airline = airline;
-        this.MaxAltitude = maxAltitude;
-        this.NumEngines = numEngines;
-        Console.WriteLine("Airplane constuctor!");
+    public Airplane() {
+        Console.WriteLine("Default Airplane constructor!");
     }
+
+    // public Airplane(string airline, int maxAltitude, int numEngines) {
+    //     this.Airline = airline;
+    //     this.MaxAltitude = maxAltitude;
+    //     this.NumEngines = numEngines;
+    //     Console.WriteLine("Airplane constuctor!");
+    // }
         
     public override void Drive() {
         Console.WriteLine("Airplane is flying");
