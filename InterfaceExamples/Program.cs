@@ -36,6 +36,7 @@ ISmartphone phoneF = new Android {
                         Model = "Samsung Galaxy 20"
                     };
 
+
 // phoneE.BrowseInternet();
 // phoneF.BrowseInternet();
 
@@ -60,3 +61,11 @@ List<ISmartphone> smartphones = new List<ISmartphone>{
 foreach(ISmartphone phone in smartphones) {
     phone.BrowseInternet();
 }
+
+
+
+
+
+
+
+
